@@ -19,5 +19,7 @@ def all_ingredients(recipes):
     for cocktail in recipes:
         for ingredient in cocktail["ingredients"]:
             ingredients.append(ingredient)
+    print(set(ingredients))
 
 all_ingredients(recipes)
+
