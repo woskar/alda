@@ -28,4 +28,24 @@ def binarySearch2(a, key):
         else:
             return res + center + 1
 
+import time
 
+"""
+print()
+print("Messung von fib6(n):")
+n = 241050 # Startwert festlegen
+while True:
+    t_start = time.time()
+    value = fib6(n)
+    t_end = time.time()
+    passed_time = t_end-t_start
+    print("N:", n, "fib(N):", value, "time:", passed_time)
+    if passed_time > 10:
+        break
+    n = math.floor(n*1.1)
+
+# Ausgabe:
+# N: 241050
+# time: 9.740862846374512 s
+
+"""
